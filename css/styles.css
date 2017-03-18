@@ -1,0 +1,255 @@
+body {
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+#logo {
+	font-size: 38px;
+	font-family: 'Open Sans Condensed';
+	font-weight:100;
+	letter-spacing: 6px;
+}
+.mob-nav {
+	display:none;
+}
+
+h1 {
+	font-family: 'Jura'
+}
+li {
+	list-style: none;
+}
+p {
+	font-family: 'Garamond';
+	font-size: 24px;
+	font-weight: 550;
+}
+.stockphoto h1 {
+	text-align: center;
+	color:white;
+	font-size:108px;
+	text-shadow: 1px 1px #000;
+	text-decoration: underline;
+	font-family: 'Montserrat';
+}
+
+.stockphoto h3 {
+	color:white;
+	font-size: 40px;
+ 	font-family: 'Lobster';
+ 	text-shadow: 1px 1px #000;
+ 	text-align: center;
+
+}
+a {
+	color: black;
+	-webkit-transition: background-color 500ms ease-out 3s;
+    -moz-transition: background-color 500ms ease-out 3s;
+    -o-transition: background-color 500ms ease-out 3s;
+    transition: background-color 500ms ease-out 3s;
+    color:black;
+
+ }
+ a:hover {
+ 	color: #ef5286;
+ 	text-decoration: none;
+ }
+
+ul {
+	display:block;
+	text-align: center;
+}
+
+#get-started {
+	color:white;
+	width:150px;
+}
+
+.headr li {
+	display:inline;
+	font-weight: 700;
+	font-size: 17px;
+	padding-right: 50px;
+	padding-top: 0px;
+}
+.headr {
+	height: 70px;
+	padding-top: 8px;
+	padding-bottom: 12px;
+}
+.stockphoto {
+	z-index: -1;
+ 	background-image: url("img/stockphoto.jpeg");
+ 	height:1000px;
+  	background-size:100%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: right;
+  	text-align: center;
+}
+.stockphoto h3 {
+	padding-top: 20%;
+
+}
+.stockphoto h1 {
+	font-family: 'Montserrat';
+	font-weight:700;
+	text-shadow: 2 2 black;
+}
+
+.stockphoto button {
+	margin-top:100px;
+}
+
+.btn {
+	text-align: center;
+	z-index: 300;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ef5285;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+  min-width: 250px;
+}
+
+#designsolutions {
+	min-height: 300px;
+	width:100%;
+	background-color: #fff;
+	padding-top:100px;
+	padding-bottom: 100px;
+}
+#designsolutions h1 {
+	text-align: center;
+	font-size: 84px;
+	color: #303133;
+	font-weight: 700;
+}
+#designsolutions p {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#websites {
+	padding-top:100px;
+	background-color: #ccc;
+	padding-bottom:100px;
+}
+#recent-work {
+	min-height:700px;
+	background-color: #444;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#recent-work h1 {
+	font-size: 80px;
+}
+#recent-work img {
+	max-width: 100%;
+	padding-top:60px;
+}
+img:hover {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+img {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+.grow { transition: all .4s ease-in-out; }
+.grow:hover { transform: scale(1.5); z-index:1000;}
+
+#recent-work button {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#our-team {
+	text-align: center;
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color: #f5f5f5;
+}
+#our-team h2 {
+	font-family: 'Jura';
+	font-size:45px;
+}
+#our-team h1 {
+	font-size: 95px;
+}
+#our-team p {
+	font-size: 19px;
+	padding-left: 16%;
+	padding-right:16%;
+}
+#our-team h3:nth-child(even) h3 {
+	padding-top:100px;
+} 
+#readytostart {
+	background-color: #000;
+	color: #fff;
+
+}
+#readytostart h1 {
+	padding-top: 100px;
+	font-size: 110px;
+	margin-top:0px;
+	padding-bottom: 200px;
+}
+#readytostart button {
+	margin-bottom:50px;
+}
+footer {
+	padding-top:130px;
+	background-color:#000;
+	color:white;
+}
+#hammer {
+	padding-top: auto;
+}
+.sideimages img {
+	display:inline-block;
+	width:150px;
+	
+}
+@media only screen and (max-width: 930px) {
+    .headr li {
+		display:inline;
+		font-weight: 700;
+		font-size: 13px;
+		padding-right: 20px;
+		padding-top: 0px;
+	}
+	.headr {
+		height: 50px;
+		padding-top: 8px;
+		padding-bottom: 6px;
+	}
+	#logo {
+		font-size: 30px;
+		letter-spacing: 2px;
+	}
+}
+@media only screen and (max-width: 780px) {
+    .sideimages img {
+        display:none;
+    }
+    .grow:nth-child(odd){
+    	display:none;
+    }
+}
+@media only screen and (max-width: 610px) {
+	.headr a {
+		display:none;
+	}
+	#logo {
+		font-size: 35px
+		padding-top:5px;
+	}
+	.mob-nav {
+		display:inline-flex;
+		font-size: 12px;
+	}
+}
