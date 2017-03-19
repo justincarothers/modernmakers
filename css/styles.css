@@ -23,7 +23,7 @@ p {
 	font-size: 24px;
 	font-weight: 550;
 }
-.stockphoto h1 {
+.paralax h1 {
 	text-align: center;
 	color:white;
 	font-size:108px;
@@ -32,7 +32,7 @@ p {
 	font-family: 'Montserrat';
 }
 
-.stockphoto h3 {
+.paralax h3 {
 	color:white;
 	font-size: 40px;
  	font-family: 'Lobster';
@@ -76,27 +76,25 @@ ul {
 	padding-top: 8px;
 	padding-bottom: 12px;
 }
-.stockphoto {
+.paralax {
 	z-index: -1;
- 	background-image: url("img/stockphoto.jpeg");
- 	height:1000px;
-  	background-size:100%;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	background-position: right;
-  	text-align: center;
+	background-image: url("img/stockphoto.jpeg");
+  height:1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.stockphoto h3 {
+.paralax h3 {
 	padding-top: 20%;
-
 }
-.stockphoto h1 {
+.paralax h1 {
 	font-family: 'Montserrat';
 	font-weight:700;
 	text-shadow: 2 2 black;
 }
 
-.stockphoto button {
+.paralax button {
 	margin-top:100px;
 }
 
@@ -186,7 +184,7 @@ img {
 }
 #our-team h3:nth-child(even) h3 {
 	padding-top:100px;
-} 
+}
 #readytostart {
 	background-color: #000;
 	color: #fff;
@@ -212,7 +210,7 @@ footer {
 .sideimages img {
 	display:inline-block;
 	width:150px;
-	
+
 }
 @media only screen and (max-width: 930px) {
     .headr li {
